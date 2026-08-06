@@ -1,0 +1,1 @@
+DISEASE_INFO = {}

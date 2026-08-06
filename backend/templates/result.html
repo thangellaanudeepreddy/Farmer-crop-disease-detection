@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Prediction Result</title>
+</head>
+<body>
+    <h1>Prediction Result</h1>
+
+    <p><b>Crop:</b> {{ result.crop }}</p>
+    <p><b>Disease:</b> {{ result.disease }}</p>
+    <p><b>Confidence:</b> {{ result.confidence }}%</p>
+
+    <img src="{{ result.image_path }}" width="300">
+
+    <br><br>
+    <a href="/">Try Another Image</a>
+</body>
+</html>
