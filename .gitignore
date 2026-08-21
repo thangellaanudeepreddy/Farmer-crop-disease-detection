@@ -3,3 +3,5 @@ venv311/
 __pycache__/ 
 *.pyc 
 venv/  venv311/  __pycache__/  *.pyc 
+venv/ 
+__pycache__/  *.pyc 
